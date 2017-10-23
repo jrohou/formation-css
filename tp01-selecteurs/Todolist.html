@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <script src="https://code.jquery.com/jquery-1.12.3.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
     <script>
     $(function() {
 
@@ -14,8 +15,8 @@
         e.preventDefault();
         var text = $('input:text').val();
         if (text != "") {
-            $list.append('<li>' + text + '</li>');
-            $('input:text').val('');            
+            $list.append('<li class="item">' + text + '</li>');
+            $('input:text').val('');
         }
         });
 

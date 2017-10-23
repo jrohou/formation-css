@@ -1,0 +1,42 @@
+body{
+  background-color: #EFECCA;
+}
+
+h1 {
+  color : #C03000;
+}
+
+h2{
+  color : #4BB5C1;
+}
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+}
+
+li {
+  float : left;
+}
+
+li a {
+  background-color: red;
+  display: block;
+  color : white;
+  border: 1px solid #660000;
+  width: 100px;
+  padding: 16px;
+  text-decoration: none;
+  text-align: center;
+}
+
+li a:hover{
+  background-color: #009900;
+  text-decoration: underline;
+
+}
+
+#contact {
+  color: #0000FF;
+  text-decoration: none;
+}
